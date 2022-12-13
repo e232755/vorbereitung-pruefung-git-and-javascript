@@ -7,7 +7,7 @@ function start() {
 }
 
 function update() {
-dy = dy + 0.05
+    dy = dy + 0.05
 
     let cy = parseFloat(circle.getAttribute("cy"))
     cy = cy + dy
